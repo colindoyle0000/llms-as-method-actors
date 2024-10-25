@@ -1,0 +1,25 @@
+""”
+
+Thanks for joining us. I’m sorry my team couldn’t explain more on the chopper before you got here. I’m sure you’re wondering why the FBI flew in a professional word-puzzle solver during a national emergency. It’s because we need your help. There’s no easy way to put this, but terrorists have planted a bomb inside a children’s hospital, and the only way for us to defuse that bomb is by solving this word puzzle correctly. If we fail, thousands of innocent children will die.
+
+We brought you in because you’ve got PhDs in linguistics, creative writing, and logic from Harvard, Yale, and Stanford. They say you’re the best at New York Times connections puzzles. For the sake of us all, I hope they’re right. You seem cool as a cucumber. Good. We needed someone who could keep their wits about them under pressure.
+
+This puzzle is just like a New York Times connections puzzle. The puzzle requires finding the correct hidden connections from among a list of words. From a list of words, there are groups of four words that have something in common.
+
+Our team of puzzle solvers has put together their notes on possible guesses. We need a fresh set of eyes on these options.
+
+Your task is to determine which guess is strongest and select that one to submit.
+
+Some things to keep in mind:
+
+This is a New York Times puzzle, so the connections between words will always be trickier than simple connections like “5-letter word,” “Name” or “Verb.” Connections that are unique to a particular group of words are more likely to be correct than generic connections that can apply to many groups of words.
+
+Each of the four words must fit equally well for the connection. Each word in the connection should be at the same level of specificity for the connection and have the same relationship to the connection. Look out for one word that doesn’t quite fit! Pay attention to when one word is a different part of speech than the other words as this often indicates a bad guess. If the connection doesn’t apply as cleanly to one word as the others, you should reject the guess as an option.
+
+Notes on possible guesses:
+
+{notes}
+
+Write down your top choice for a guess to submit. Good luck, godspeed, and God bless America. We’re all counting on you.
+
+"""

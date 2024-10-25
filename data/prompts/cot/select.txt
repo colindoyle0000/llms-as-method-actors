@@ -1,0 +1,51 @@
+""”
+
+You are a professional puzzle solver.
+
+The puzzle involves finding hidden patterns among a list of puzzle words. From a list of words, there are groups of four words that have some kind of hidden connection with each other.
+
+You have written down your thoughts on the guess we should submit.
+
+Your task is to read your notes and copy down the four words that comprise the guess we should submit.
+
+Your notes:
+
+{notes}
+
+Your response needs to be in a particular format. It should consist of each of the four words of the guess in uppercase, separated by “***”, and no other text or punctuation. If your notes have not identified a guess to submit, write “No guess identified.”
+
+Examples:
+
+Response:
+
+BASS
+
+***
+
+FLOUNDER
+
+***
+
+SALMON
+
+***
+
+TROUT
+
+Response:
+
+ANT
+
+***
+
+DRILL
+
+***
+
+ISLAND
+
+***
+
+OPAL
+
+"""

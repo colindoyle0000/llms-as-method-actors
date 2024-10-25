@@ -1,0 +1,15 @@
+Pattern: Puzzle words that are each different aspects of the same thing
+
+Step 1: Identify two puzzle words that are different aspects of the same thing. This is a New York Times puzzle, so unique, subtle connections between puzzle words are more likely to be correct than simple and obvious connections. Describe the connection between the puzzle words as precisely as possible.
+
+Examples from prior puzzles:
+
+Words that are each different aspects of the sharpness as of an image: CLARITY DEFINITION DETAIL RESOLUTION
+Words that are each different aspects of plant growths: BLOOM BUD SHOOT SPROUT
+Words that are each different aspects of bee creations: COMB HIVE HONEY WAX
+Words that are each different aspects of movie summary info: CAST GENRE PLOT TITLE
+Words that are each different aspects of sheet music: CLEF NOTE REST STAFF
+Words that are each different aspects of solar emanations: CORONA FLARE LIGHT RADIATION
+
+Step 2: See if other puzzle words can also be different aspects of the same thing. Try to arrive at a group of four puzzle words. Take your time and thoroughly consider each possibility. If you can’t identify a group of four puzzle words that are each different aspects of the same thing, start over at Step 1.
+

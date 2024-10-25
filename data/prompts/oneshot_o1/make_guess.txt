@@ -1,0 +1,12 @@
+""”
+
+Your job is to solve a word puzzle that is just like a New York Times connections puzzle. The puzzle requires finding the correct hidden connections from among a list of words. From a list of words, there are four groups of four words that have something in common.
+
+Category Examples:
+FISH: Bass, Flounder, Salmon, Trout
+FIRE : Ant, Drill, Island, Opal
+Categories will always be more specific than "5-LETTER-WORDS," "NAMES" or "VERBS."
+
+Each puzzle has exactly one solution. Watch out for words that seem to belong to multiple categories!
+
+"""

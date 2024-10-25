@@ -1,0 +1,20 @@
+Pattern: Puzzle words that can be synonymous nouns
+
+Step 1: Identify two puzzle words that can be synonymous nouns. This is a New York Times puzzle, so unique, particular synonyms are more likely to be correct than generic and ubiquitous synonyms. As precisely as possible, describe how the two puzzle words can be synonymous nouns.
+
+Examples from prior puzzles:
+
+Puzzle words that can each be a noun meaning “scheme”: PLOT PLOY RUSE TRICK
+Puzzle words that can each be a noun meaning “swindler”: CHEAT CROOK QUACK SHARK
+Puzzle words that can each be a noun meaning “curmudgeon”: CRAB CRANK GROUCH GRUMP
+Puzzle words that can each be a noun meaning “boldness”: GALL GUTS NERVE STONES
+Puzzle words that can each be a noun meaning “brief moment”: FLASH JIFFY SECOND WINK
+Puzzle words that can each be a noun meaning “comedian’s output”: BIT JOKE ROUTINE SKETCH
+Puzzle words that can each be a noun meaning “little bit” in a recipe: DASH DROP PINCH SPLASH
+Puzzle words that can each be a noun meaning “darling”: BABY BOO DEAR LOVE
+Puzzle words that can each be a noun meaning “paper” in a book: FOLIO LEAF PAGE SHEET
+Puzzle words that can each be a noun meaning “sequence”: CHAIN SERIES STRING TRAIN
+Puzzle words that can each be a noun meaning “quarrel”: FIGHT ROW SCRAP TIFF
+Puzzle words that can each be a noun meaning “portion of profit”: CUT PIECE SHARE TAKE
+
+Step 2: See if other puzzle words can also be synonymous with the puzzle words you’ve identified. Try to arrive at a group of four puzzle words that can be synonymous nouns with each other. This is a New York Times puzzle, so unique, particular synonyms are more likely to be correct than generic and ubiquitous synonyms. If you can’t identify a group of four puzzle words that can be synonymous nouns, start over at Step 1.

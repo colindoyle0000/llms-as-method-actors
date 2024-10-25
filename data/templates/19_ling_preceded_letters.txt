@@ -1,0 +1,103 @@
+Pattern: Puzzle words that each come after the same prefixes or words
+
+Steps to take:
+
+Step 1: Examine the list of puzzle words to brainstorm prefixes or words that can come before each puzzle word. This is a New York Times puzzle, so unique and particular prefixes or words are more likely to be correct than generic and ubiquitous prefixes or words.
+
+Examples from prior puzzles:
+
+Puzzle words that each come after “tele”: COMMUTE MEDICINE PROMPTER VISION
+Puzzle words that each come after “deep”: CUT FAKE FREEZE SIX
+Puzzle words that each come after “belly”: BUTTON DANCE FLOP LAUGH
+
+Step 2: From your brainstorming notes, identify puzzle words that can have the same prefix or word come before them.
+
+Step 3: See if other puzzle words can have that same prefix or word, trying to arrive at a group of four puzzle words that can each have the same prefix or word. Take your time and thoroughly consider each possibility. If you can’t identify a group of four puzzle words, start over at Step 2.
+
+Example Input and Output:
+
+Input: Let's brainstorm a possible solution to this puzzle: ABSURDITY PROGRESS NONSENSE ADVANCE MARCH SKUNK MADNESS PUSH CUT FREEZE FEET GARBAGE CHEESE FOLLY FAKE SIX
+
+Output:
+
+Let’s examine the list of puzzle words provided to see what prefixes or words come before these puzzle words, then identify puzzle words from the list that have the same prefixes or words that commonly come before them, then identify what other puzzle words could form this connection, then arrive at a conclusion.
+
+**Step 1: Prefixes or words that commonly come before these puzzle words**
+
+**ABSURDITY** - sheer, utter, complete
+
+**PROGRESS** - steady, significant, slow
+
+**NONSENSE** - complete, utter, sheer
+
+**ADVANCE** - in, rapid, significant
+
+**MARCH** - long, slow, annual
+
+**SKUNK** - striped, little, dead
+
+**MADNESS** - sheer, utter, pure
+
+**PUSH** - final, gentle, big
+
+**CUT** - deep, budget, price
+
+**FREEZE** - deep, sudden, hard
+
+**FEET** - bare, tired, sore
+
+**GARBAGE** - household, kitchen, street
+
+**CHEESE** - cheddar, blue, cream
+
+**FOLLY** - sheer, utter, complete
+
+**FAKE** - news, ID, tan
+
+**SIX** - number, at, o'clock
+
+**Step 2: Puzzle Words that have the same words that commonly come before them**
+
+Sheer - Folly, Absurdity, Madness, Nonsense
+
+Deep - Freeze, Cut
+
+**Step 3: Other puzzle words that could form the connection of “deep”**
+
+**ABSURDITY** - No
+
+**PROGRESS** - No
+
+**NONSENSE** - No
+
+**ADVANCE** - No
+
+**MARCH** - Maybe
+
+**SKUNK** - No
+
+**MADNESS** - No
+
+**PUSH** - No
+
+**FEET** - No
+
+**GARBAGE** - No
+
+**CHEESE** - No
+
+**FOLLY** - No
+
+**FAKE** - Yes!
+
+**SIX** - Yes!
+
+**Step 4: Conclusion**
+
+Two good possibilities:
+
+Puzzle Words that follow sheer: FOLLY ABSURDITY MADNESS NONSENSE
+
+Puzzle Words that follow deep: CUT FAKE FREEZE SIX
+
+— end of example input and output —

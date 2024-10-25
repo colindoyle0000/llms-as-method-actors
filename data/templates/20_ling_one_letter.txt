@@ -1,0 +1,14 @@
+Pattern: Puzzle words that are each one letter away from something else in common
+
+Steps to take:
+
+Step 1: Examine the list of puzzle words to brainstorm words that are one letter away from each puzzle word.
+
+Examples from prior puzzles:
+
+Puzzle words that are each body parts plus "y": ARMY COLONY LIVERY SHINY
+Puzzle words that are each birds minus last letter: CONDO HAW HERO LOO
+
+Step 2: Identify a connection between the words that you’ve brainstormed that applies to multiple puzzle words. This is a New York Times puzzle, so unique, subtle connections are more likely to be correct than simple and obvious connections.
+
+Step 3: See if other puzzle words can share the connection, trying to arrive at a group of four puzzle words that are each one letter away from a word that shares something else in common. Take your time and thoroughly consider each possibility. If you can’t identify a group of four puzzle words, start over at Step 2.

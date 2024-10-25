@@ -1,0 +1,18 @@
+Pattern: Puzzle words that are each a way to do the same thing.
+
+Step 1: Identify two puzzle words that are each a way to do the same thing. This is a New York Times puzzle, so unique, particular things are more likely to be correct than generic and ubiquitous things. As precisely as possible, describe how the two puzzle words are each a way to do the same thing.
+
+Examples from prior puzzles:
+
+Puzzle words that are each a way to remove hair: SHAVE THREAD TWEEZE WAX
+Puzzle words that are each a way to preserve food: CAN CURE DRY FREEZE
+Puzzle words that are each a way to get attention: SHOUT SNAP WAVE WHISTLE
+Puzzle words that are each a way to say “I give!”: ENOUGH MERCY STOP UNCLE
+Puzzle words that are each a way to say “Step on it!": FASTER GO HURRY MOVE
+Puzzle words that are each a way to preserve a meat: CANS CURES SALTS SMOKES
+Puzzle words that are each a way to say “My mistake!”: APOLOGIES OOPS PARDON SORRY
+Puzzle words that are each a way to say a win is assured: CLINCH GUARANTEE LOCK SECURE
+Puzzle words that are each a way to take a tumble: FALL SLIP SPILL TRIP
+Puzzle words that are each a slang way to say “head” using food words: BEAN MELON NOODLE NUT
+
+Step 2: See if other puzzle words are also a way to do that same thing. Try to arrive at a group of four puzzle words that are each a way to do the same thing. This is a New York Times puzzle, so unique, particular things are more likely to be correct than generic and ubiquitous things. If you can’t identify a group of four puzzle words that are each a way to do the same thing, start over at Step 1.

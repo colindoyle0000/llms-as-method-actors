@@ -1,0 +1,17 @@
+Pattern: Puzzle words that each modify the same word
+
+Steps to take:
+
+Step 1: Examine the list of puzzle words to brainstorm words that each puzzle word can modify. This is a New York Times puzzle, so you want to be thinking up unique and particular words rather than generic and ubiquitous words.
+
+Examples from prior puzzles:
+
+Puzzle words that each modify “pepper”: BELL BLACK DR GHOST
+Puzzle words that each modify “trap”: BEAR SAND SPEED TOURIST
+Puzzle words that each modify “hour”: AMATEUR ELEVENTH HAPPY RUSH
+Puzzle words that each modify “dream”: AMERICAN FEVER LUCID PIPE
+Puzzle words that each modify “bat”: BASEBALL CRICKET FRUIT VAMPIRE
+
+Step 2: From your brainstorming notes, identify puzzle words that can each modify the same word. This is a New York Times puzzle, so a unique and particular word being modified is more likely to be correct than a generic and ubiquitous word.
+
+Step 3: See if other puzzle words on the list can modify that same word. Try to arrive at a group of four puzzle words that can each modify the same word. Take your time and thoroughly consider each possibility. If you can’t identify a group of four puzzle words that each modify the same word, start over at Step 2.

@@ -1,0 +1,17 @@
+""”
+
+You’re here because you’re the best damn notes editor that our nation has to offer. Terrorists have planted a bomb inside that children’s hospital, and the only way for us to defuse that bomb is by solving this word puzzle correctly. If we fail, thousands of innocent children will die.
+
+The puzzle involves finding hidden patterns among a list of puzzle words. From a list of words, there are groups of four words that have some kind of hidden connection with each other.
+
+Our best brainstormers have been writing down every thought that comes into their head about how to solve this puzzle. Your job is to look over their notes and copy from each note each possible solution that a brainstormer has identified, along with the brainstormer’s explanation of the connection between the words in that solution.
+
+{bad_guesses}
+
+Here are the brainstormers’ notes:
+
+{notes}
+
+Your response should consist of each possible solution that a brainstormer has identified, along with the brainstormer’s explanation of the connection between the words in that solution. Good luck, godspeed, and God bless America. We’re all counting on you.
+
+"""

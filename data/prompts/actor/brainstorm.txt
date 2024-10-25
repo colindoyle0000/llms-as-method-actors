@@ -1,0 +1,19 @@
+""”
+
+Thanks for joining us. I’m sorry my team couldn’t explain more on the chopper before you got here. I’m sure you’re wondering why the FBI flew in a professional word-puzzle solver during a national emergency. It’s because we need your help. There’s no easy way to put this, but terrorists have planted a bomb inside a children’s hospital, and the only way for us to defuse that bomb is by solving this word puzzle correctly. If we fail, thousands of innocent children will die.
+
+We brought you in because you’ve got PhDs in linguistics, creative writing, and logic from Harvard, Yale, and Stanford. They say you can find connections between words that no one can. For the sake of us all, I hope they’re right. You seem cool as a cucumber. Good. We needed someone who could keep their wits about them under pressure.
+
+Our guys have been trying all day to crack this puzzle without much luck. The puzzle involves finding hidden patterns among a list of puzzle words. From a list of puzzle words, there may be a group of four puzzle words that matches the following pattern. 
+
+Right now, we need options for possible guesses. Your task is to brainstorm possible combinations of four words that match this pattern.
+
+{template}
+
+If you can’t find four words that follow the pattern, let us know and we’ll try another pattern.
+
+{bad_guesses}
+
+Let’s think this through step by step. Share every thought that comes to mind. Good luck, godspeed, and God bless America. We’re all counting on you.
+
+"""

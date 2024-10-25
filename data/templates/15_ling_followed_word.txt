@@ -1,0 +1,87 @@
+Pattern: Puzzle words that are each followed by the same word or phrase
+
+Steps to take:
+
+Step 1: Examine the list of puzzle words to brainstorm words that can follow each puzzle word. This is a New York Times puzzle, so you want to be thinking up unique and particular words and phrases rather than generic and ubiquitous words and phrases.
+
+Examples from prior puzzles:
+
+Puzzle words that are each followed by “George”: BOY BY CURIOUS SAINT
+Puzzle words that are each followed by “Valley”: DEATH HIDDEN SILICON UNCANNY
+Puzzle words that are each followed by “Crane”: CONSTRUCTION FRASIER PAPER WHOOPING
+Puzzle words that are each followed by “up”: AMP FIRE HYPE PUMP
+Puzzle words that are each followed by “jam”: NBA PAPER PEARL TRAFFIC
+Puzzle words that are each followed by “bear”: BOO-BOO BROWN HONEY TEDDY
+Puzzle words that are each followed by “chip”: BLUE COMPUTER POKER POTATO
+Puzzle words that are each followed by “wheel”: CHEESE COLOR HAMSTER PRAYER
+
+Step 2: Identify puzzle words that have the same word or phrase that follows them. This is a New York Times puzzle, so unique and particular words and phrases are more likely to be correct than generic and ubiquitous words.
+
+Step 3: See if other puzzle words can have that word follow them. Try to arrive at a group of four puzzle words that can each be followed by the same word or phrase. Take your time and thoroughly consider each possibility. If you can’t identify a group of four puzzle words that are each followed by the same word or phrase, start over at Step 2.
+
+Example Input and Output:
+
+Input: Let's brainstorm a possible solution to this puzzle: CROP CURIOUS BAD TANK GEE FLY BEE FRESH TEE RAD EX JAY BOY POLO BY SAINT
+
+Output:
+
+To tackle this puzzle effectively, let's begin by analyzing potential phrases that can follow each puzzle word in the list. The objective is to identify any common phrase that can logically append to each puzzle word.
+
+### Initial Brainstorming:
+
+- **CROP** - dust, circles, top, rotation
+- **CURIOUS** - George, case, about, nature
+- **BAD** - news, influence, boy, habit
+- **TANK** - top, engine, battle, fish
+- **GEE** - whiz, thanks, golly, willikers
+- **FLY** - swatter, fishing, high, away
+- **BEE** - hive, line, pollen, movie
+- **FRESH** - air, produce, start, prince
+- **TEE** - shirt, time, off, ball
+- **RAD** - tech, radiation, cool, level
+- **EX** - wife, husband, file, change
+- **JAY** - bird, walk, Z, blue
+- **BOY** - scout, friend, George, band
+- **POLO** - shirt, match, water, club
+- **BY** - pass, law, product, George
+- **SAINT** - Bernard, Mary, George, Nicholas
+
+### Observations:
+
+Observing a connection here with the word "George", as it follows CURIOUS (from the character Curious George), BOY (from the character Boy George), SAINT (Saint George), and BY (like in a phrase, although a bit of a stretch). Here's a pattern match:
+
+**Pattern:** Words that are each followed by “George”
+
+- CURIOUS
+- BOY
+- SAINT
+- BY
+
+Now, let's test another set of puzzle words:
+
+1. **BAD** - followed by "guy", "habit", "blood", etc.
+2. **FRESH** - followed by "air", "produce", "prince", etc.
+3. **TANK** - followed by "top", "engine", "battle", etc.
+4. **TEE** - followed by "shirt", "time", "off", etc.
+
+No obvious connection stands out here as strongly as the previous one.
+
+Let's try one more grouping:
+
+1. **CROP** - followed by "top", "circle", "dusting", etc.
+2. **TANK** - again, followed by "top", "engine", "battle", etc.
+3. **FRESH** - mentioned earlier, "air", "produce", "prince", etc.
+4. **EX** - followed by "girlfriend", "president", "employee", etc.
+
+Here, the words "CROP" and "TANK" both could follow with "top" (crop top, tank top). However, extending this to four words with the same following phrase doesn't work in this selection.
+
+In conclusion, for this set, the strongest pattern match I found involves:
+
+- **CURIOUS**
+- **BOY**
+- **SAINT**
+- **BY**
+
+All of these can logically be followed by the word "George".
+
+— end of example input and output —

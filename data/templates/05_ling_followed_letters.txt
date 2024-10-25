@@ -1,0 +1,79 @@
+Pattern: Puzzle words that are each followed by the same set of letters
+
+Steps to take: 
+
+Step 1: Examine the list of puzzle words to brainstorm letters or words that can follow each word. This is a New York Times puzzle, so you want to be thinking up unique and particular sets of letters or words rather than generic and ubiquitous sets of letters or words.
+
+Examples from prior puzzles:
+
+Puzzle words that are each followed by “berry”: BLUE GOOSE RASP STRAW
+Puzzle words that are each followed by “land countries”: ICE IRE FIN NETHER
+Puzzle words that are each followed by “-o”: DADDY DAY JACKIE JELL
+
+Step 2: Identify puzzle words that have the same set of letters or words that can follow them. This is a New York Times puzzle, so unique and particular sets of letters or words are more likely to be correct than generic and ubiquitous sets of letters or words. 
+
+Step 3: See if other puzzle words on the list can have that same set of letters or word follow them. Try to arrive at a group of four puzzle words that can each be followed by the same set of letters or word. Take your time and thoroughly consider each possibility. If you can’t identify a group of four puzzle words, start over at Step 2.
+
+Example Input and Output:
+
+Input: Let's brainstorm a possible solution to this puzzle: BOAT BLUE CAR PLANE STRAW TRANSPORTATION PINCH DASH GAME GOOSE RASP IN ON BOARD DROP SPLASH DOWN
+
+Output:
+
+Let’s examine the list of words provided to see what set of letters commonly follow these words, then identify words that have the same letters that commonly follow them:
+
+**Step 1: Identify letters that follow these puzzle words**
+
+**BOAT** - house, yard, load, race
+
+**BLUE** - berry, print, jay, tooth
+
+**CAR** - pet, pool, port, bon
+
+**PLANE** - tarium, trees, tary, table
+
+**STRAW** - berry, man, bale, hat
+
+**TRANSPORTATION** - al, infrastructure, system, sector
+
+**PINCH** - ed, ing, point, hit
+
+**DASH** - board, ing, ed, line
+
+**GAME** - play, board, plan, master
+
+**GOOSE** - berry, bump, neck, flesh
+
+**RASP** - berry, ing, ed, er
+
+**IN** - side, to, put, come
+
+**ON** - line, ward, going, to
+
+**BOARD** - room, walk, game, ing
+
+**DROP** - let, down, out, box
+
+**SPLASH** - ing, ed, down, page
+
+**DOWN** - load, town, ward, pour
+
+**Step 2: Identify puzzle words that have the same letters that commonly follow them**
+
+1. **BLUE** - berry
+2. **GOOSE** - berry
+3. **RASP** - berry
+4. **STRAW** - berry
+
+These puzzle words are all commonly followed by "berry.”
+
+**Step: 3 See if other puzzle words on the list can have the same letters follow them**
+
+Already found four words followed by “berry”
+
+1. **BLUE** - berry
+2. **GOOSE** - berry
+3. **RASP** - berry
+4. **STRAW** - berry
+
+— end of example input and output —

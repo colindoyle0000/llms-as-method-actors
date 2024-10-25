@@ -1,0 +1,18 @@
+Pattern: Puzzle words that are each a type of the same thing.
+
+Step 1: Identify two puzzle words that are each a type of the same thing. This is a New York Times puzzle, so unique, particular things are more likely to be correct than generic and ubiquitous things. As precisely as possible, describe how the two puzzle words are each a type of the same thing.
+
+Examples from prior puzzles:
+
+Puzzle words that are each a type of name prefix: GEN MS PROF REV
+Puzzle words that are each a type of road name: ALLEY DRIVE LANE STREET
+Puzzle words that are each a type of interval of time: PERIOD SPELL STRETCH WHILE
+Puzzle words that are each a type of farm tool: HOE PLOW RAKE SICKLE
+Puzzle words that are each a type of sports venue: ARENA BOWL DOME FIELD
+Puzzle words that are each a type of murky condition: CLOUD FOG HAZE MIST
+Puzzle words that are each a type of luxurious fabric: CHIFFON SATIN SILK VELVET
+Puzzle words that are each a type of ice cream treat: FLOAT SHAKE SPLIT SUNDAE
+Puzzle words that are each a type of hardware fastener: BOLT NAIL RIVET SCREW
+Puzzle words that are each a type of cooking oil: CORN OLIVE PALM PEANUT
+
+Step 2: See if other puzzle words are also a type of the same thing. Try to arrive at a group of four puzzle words that are each a type of the same thing. This is a New York Times puzzle, so unique, particular things are more likely to be correct than generic and ubiquitous things. If you can’t identify a group of four puzzle words that are each a type of the same thing, start over at Step 1.

@@ -1,0 +1,11 @@
+Pattern: Puzzle words that can be parts of different words within the same category
+
+Step 1: Identify two puzzle words that can each be a part of a different word within the same category. This is a New York Times puzzle, so unique, particular categories are more likely to be correct than generic and ubiquitous categories. As precisely as possible, describe how each of the two puzzle words can be part of a different word within the same category.
+
+Examples from prior puzzles:
+
+Puzzle words that are each the first letters of a zodiac sign: CAN GEM LIB TAU
+Puzzle words that are each the first letters of the name of a planet: EAR MAR MER SAT
+Puzzle words that each start with letters that form the name of a rock band: CREAMSICLE JOURNEYMAN KISSCAM RUSHMORE
+
+Step 2: See if other puzzle words can be part of different words within that same category. Try to arrive at a group of four puzzle words that can be parts of different words within the same category. This is a New York Times puzzle, so unique, particular categories are more likely to be correct than generic and ubiquitous categories. If you can’t identify a group of four puzzle words that can be parts of different words within the same category, start over at Step 1.

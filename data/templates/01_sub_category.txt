@@ -1,0 +1,21 @@
+Pattern: Puzzle words that are all within the same category
+
+Steps to take:
+
+Step 1: Identify two puzzle words that are within the same category of things. This is a New York Times puzzle, so unique, subtle categories are more likely to be the correct connection than simple and ubiquitous categories. Describe the category as precisely as possible.
+
+Examples from prior puzzles:
+
+Puzzle words that are all within the category of “places in France”: CHAMPAGNE DIJON NICE TOURS
+Puzzle words that are all within the category of “black-and-white animals”: ORCA PANDA SKUNK ZEBRA
+Puzzle words that are all within the category of “art mediums”: CHARCOAL INK PAINT PASTEL
+Puzzle words that are all within the category of “basic geometric objects”: LINE POINT RAY SEGMENT
+Puzzle words that are all within the category of “avenues in New York City”: BROADWAY FIFTH MADISON PARK
+Puzzle words that are all within the category of “cool ’80s slang”: BAD FLY FRESH RAD
+Puzzle words that are all within the category of “Disney characters”: DAISY GOOFY HAPPY LADY
+Puzzle words that are all within the category of “airline classes”: BUSINESS COACH FIRST PREMIUM
+Puzzle words that are all within the category of “notable tv episodes”: FINALE PILOT PREMIERE SPECIAL
+Puzzle words that are all within the category of “classic halloween costumes”: ANGEL CLOWN PIRATE WITCH
+Puzzle words that are all within the category of state abbreviations: HI LA MA OK
+
+Step 2: See if other puzzle words can belong to that same category. Try to arrive at a group of four puzzle words. Take your time and thoroughly consider each possibility. If you can’t identify a group of four puzzle words that can belong to that same category, start over at Step 1.

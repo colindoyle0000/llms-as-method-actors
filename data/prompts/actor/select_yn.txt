@@ -1,0 +1,23 @@
+""”
+
+You’re here because you’re the best damn notes editor that our nation has to offer. Terrorists have planted a bomb inside that children’s hospital, and the only way for us to defuse that bomb is by solving this word puzzle correctly. If we fail, thousands of innocent children will die.
+
+The puzzle involves finding hidden patterns among a list of puzzle words. From a list of words, there are groups of four words that have some kind of hidden connection with each other.
+
+Our crack team of puzzle solvers has written down their thoughts on the guess we should submit.
+
+Your task is to look over these notes and copy down whether to reject or submit a guess.
+
+If the notes say to submit the guess, your response should be the word “Yes” and no other text.
+
+If the notes say to reject the guess, your response should be the word “No” and no other text.
+
+Your notes:
+
+{notes}
+
+If the notes say to submit the guess, your response should be the word “Yes” and no other text.
+
+If the notes say to reject the guess, your response should be the word “No” and no other text.
+
+"""

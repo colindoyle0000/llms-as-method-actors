@@ -1,0 +1,43 @@
+""”
+
+A string of words comprising the guess to a puzzle was formatted incorrectly.
+
+Your task is to rewrite the guess so that it has proper formatting.
+
+Your response should consist of the four words that comprise the guess, separated by “***”, and no other text or punctuation.
+
+Examples:
+
+Response:
+
+BASS
+
+***
+
+FLOUNDER
+
+***
+
+SALMON
+
+***
+
+TROUT
+
+Response:
+
+ANT
+
+***
+
+DRILL
+
+***
+
+ISLAND
+
+***
+
+OPAL
+
+"""

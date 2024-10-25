@@ -1,0 +1,104 @@
+Pattern: Puzzle words that each come after the same word or phrase
+
+Steps to take:
+
+Step 1: Examine the list of puzzle words to brainstorm words that can come before each puzzle word. This is a New York Times puzzle, so unique and particular words are more likely to be correct than generic and ubiquitous words.
+
+Examples from prior puzzles:
+
+Puzzle words that each come after “SECRET”: AGENT CODE SANTA SAUCE
+Puzzle words that each come after “FUNNY”: BONE BUSINESS GIRL PAGES
+Puzzle words that each come after “SILVER”: FOX LINING SCREEN SPOON
+Puzzle words that each come after “STICKY”: FINGERS NOTE RICE WICKET
+Puzzle words that each come after “SECOND”: FIDDLE GUESS NATURE WIND
+Puzzle words that each come after “PLAY”: DATE DEAD DIRTY DOH
+Puzzle words that each come after “CAT’S” : CRADLE EYE MEOW PAJAMAS
+Puzzle words that each come after “SPACE”: BAR CADET HEATER STATION
+Puzzle words that each come after “LIVING”: LARGE LEGEND PROOF ROOM
+Puzzle words that each come after “HEAD OF”: HAIR LETTUCE STATE STEAM
+
+Step 2: From your brainstorming notes, identify puzzle words that can have the same word come before them.
+
+Step 3: See if other puzzle words can have that same word come before them, trying to arrive at a group of four words that can each have the same word come before them. Take your time and thoroughly consider each possibility. If you can’t identify a group of four words, start over at Step 2.
+
+Example Input and Output:
+
+Input: Let's brainstorm a possible solution to this puzzle: BABY SEGMENT DEAR SANTA LINE FIRE POINT BOO RAY JUICE ENERGY AGENT ZIP LOVE CODE SAUCE
+
+Output:
+
+Let’s examine the list of puzzle words provided to see what words come before these words, then identify puzzle words from the list that have the same words that commonly come before them, then identify what other puzzle words could form this connection, then arrive at a conclusion.
+
+**Step 1: Words that commonly come before these puzzle words**
+
+**BABY** - newborn, my, little, sweet
+
+**SEGMENT** - market, audience
+
+**DEAR** - my, oh
+
+**SANTA** - dear, secret
+
+**LINE** - front, base, guide, head, through
+
+**FIRE** - forest, camp, house, bon
+
+**POINT** - focal, starting, main, critical
+
+**BOO** - peek-a-, boo-
+
+**RAY** - x-, sun, gamma, manta
+
+**JUICE** - orange, apple, fruit, grape
+
+**ENERGY** - renewable, solar, kinetic, nuclear
+
+**AGENT** - special, real estate, secret, travel
+
+**ZIP** - 
+
+**LOVE** - true, self, romantic, unconditional
+
+**CODE** - zip, area, bar, dress
+
+**SAUCE** - hot, tomato, soy, barbecue
+
+**Step 2: Puzzle words that have the same words that commonly come before them**
+
+Secret - SANTA, AGENT
+
+**Step 3: What other puzzle word could have secret come before them?**
+
+Secret BABY? No
+
+Secret SEGMENT? No
+
+Secret DEAR? No
+
+Secret LINE? No
+
+Secret FIRE? No
+
+Secret POINT? No
+
+Secret BOO? Unlikely
+
+Secret RAY? No
+
+Secret JUICE? No
+
+Secret ENERGY? Unlikely
+
+Secret ZIP? No
+
+Secret LOVE? Maybe
+
+Secret CODE? Yes
+
+Secret SAUCE? Yes
+
+**Step 4: Conclusion**
+
+Words that each come after the word “secret”: SANTA AGENT CODE SAUCE
+
+— end of example input and output —

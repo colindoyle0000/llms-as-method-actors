@@ -1,0 +1,18 @@
+Pattern: Puzzle words that are parts of the same thing or process
+
+Step 1: Identify two puzzle words that are each parts of the same thing or process. This is a New York Times puzzle, so unique, subtle connections between puzzle words are more likely to be correct than simple and obvious connections. As precisely as possible, describe how the puzzle words are parts of the same thing or process.
+
+Examples from prior puzzles:
+
+Puzzle words that are each parts of a car: BUMPER HOOD TIRE TRUNK
+Puzzle words that are each cuts of pork: BELLY CHOP HOCK SHOULDER
+Puzzle words that are each seen in a laundry room: DRYER HAMPER IRON WASHER
+Puzzle words that are each sections of a book: APPENDIX CHAPTER INDEX PREFACE
+Puzzle words that are each things used to build a snowman: CARROT COAL SNOW STICKS
+Puzzle words that are each parts of a golf course: BUNKER FAIRWAY GREEN ROUGH
+Puzzle words that are each pinball machine components: BALL BUMPER FLIPPER PLUNGER
+Puzzle words that are each parts of a shoe: EYELET LACE SOLE TONGUE
+Puzzle words that are each parts of a river: BANK BED DELTA MOUTH
+Puzzle words that are each in the nato alphabet: ALFA BRAVO ROMEO TANGO
+
+Step 2: See if other puzzle words can share that connection by being part of the same thing or process. Try to arrive at a group of four puzzle words that are each parts of the same thing or process. This is a New York Times puzzle, so unique, subtle connections are more likely to be correct than simple and obvious connections. If you can’t identify a group of four puzzle words that are each parts of the same thing or process, start over at Step 1.

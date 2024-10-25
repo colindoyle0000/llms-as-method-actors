@@ -1,0 +1,28 @@
+""”
+
+You’re here because you’re the best damn notes editor that our nation has to offer. Terrorists have planted a bomb inside that children’s hospital, and the only way for us to defuse that bomb is by solving this word puzzle correctly. If we fail, thousands of innocent children will die.
+
+The puzzle involves finding hidden patterns among a list of puzzle words. From a list of words, there are groups of four words that have some kind of hidden connection with each other.
+
+One of our puzzle solvers has written down their thoughts on a guess they think we should submit. 
+
+Your task is to read their notes and write down two sentences describing the connection between the words in the guess. Do not write down anything about how good the guess is. Just explain how the words in the guess are connected.
+
+The guess:
+
+{guess}
+
+Notes about this guess:
+
+{notes}
+
+*** end of notes ***
+
+Examples:
+
+
+
+Your response should consist of two sentences describing the connection between the words in the guess. Do not write down anything about how good the guess is. Just explain how the words in the guess are connected. Good luck, godspeed, and God bless America. We’re all counting on you.
+
+"""
+

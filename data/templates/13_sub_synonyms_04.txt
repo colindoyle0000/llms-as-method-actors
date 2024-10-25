@@ -1,0 +1,18 @@
+Pattern: Puzzle words that can substitute for each other. With this patten, each of the words must function as the same part of speech.
+
+Step 1: Identify two puzzle words that can substitute for each other. This is a New York Times puzzle, so unique, particular connections are more likely to be correct than generic and ubiquitous connections. As precisely as possible, describe how the two puzzle words can substitute for each other.
+
+Examples from prior puzzles:
+
+Puzzle words that can each be a verb meaning “to eat voraciously”: DOWN INHALE SCARF WOLF
+Puzzle words that can each be an adjective meaning “universal”: BLANKET BROAD GENERAL SWEEPING
+Puzzle words that can each be an adjective meaning “shared”: COLLECTIVE COMMON JOINT MUTUAL
+Puzzle words that can each be a verb meaning “to rid of contents”: CLEAR DRAIN EMPTY FLUSH
+Puzzle words that can each be a noun meaning “method”: CHANNEL MEANS MEDIUM VEHICLE
+Puzzle words that can each be an adjective meaning “unlikely (as a chance)”: OUTSIDE REMOTE SLIM SMALL
+Puzzle words that can each be a noun meaning “a large amount”: MASS SEA SLEW TON
+Puzzle words that can each be a verb meaning “to fall in under pressure”: BUCKLE CAVE COLLAPSE GIVE
+Puzzle words that can each be a verb meaning “to express indirectly”: COUCH IMPLY INTIMATE SUGGEST
+Puzzle words that can each be a verb meaning “to wager”: BET GAMBLE RISK STAKE
+
+Step 2: See if other puzzle words can also substitute for the puzzle words you’ve identified. Try to arrive at a group of four puzzle words that can substitute for each other. This is a New York Times puzzle, so unique, particular connections are more likely to be correct than generic and ubiquitous connections. If you can’t identify a group of four puzzle words that can substitute for each other, start over at Step 1.
