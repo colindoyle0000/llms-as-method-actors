@@ -12,9 +12,10 @@ from dotenv import load_dotenv
 from openai import OpenAI
 import google.generativeai as genai
 import anthropic
-from utils_file import get_root_dir
-from utils_tokens import sleep_for_tokens
-from utils_string import get_timestamp
+
+from src.utils_file import get_root_dir
+from src.utils_tokens import sleep_for_tokens
+from src.utils_string import get_timestamp
 
 
 # Set up logger

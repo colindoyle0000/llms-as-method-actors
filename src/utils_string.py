@@ -15,7 +15,6 @@ get_date() -> str
 
 """
 import logging
-import re
 from datetime import datetime
 
 # Set up logger

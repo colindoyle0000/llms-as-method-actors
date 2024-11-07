@@ -1,22 +1,12 @@
 """Guess class for Actor-2 approach for storing information about a guess that is processed."""
 
-import os
+
 import logging
-import random
 
-from guess import BaseGuess
-from utils_file import (
-    get_root_dir
-)
-from utils_llm import (
-    llm_call
-)
+from src.guess import BaseGuess
 
-from utils_string import get_timestamp
-
-from brainstorm_actor_2 import BrainstormActor2
-from discern_actor_2 import DiscernActor2
-from submit import Submit
+from src.brainstorm_actor_2 import BrainstormActor2
+from src.discern_actor_2 import DiscernActor2
 
 # Set up logger
 logger = logging.getLogger('connections')

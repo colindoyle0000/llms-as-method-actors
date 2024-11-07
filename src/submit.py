@@ -1,11 +1,9 @@
 """Class for submitting an guess for part of the answer to the puzzle."""
 
-import os
+
 import logging
-from baseclass import BaseClass
-from utils_file import (
-    get_root_dir
-)
+
+from src.baseclass import BaseClass
 
 
 # Set up logger

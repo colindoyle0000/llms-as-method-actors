@@ -8,10 +8,8 @@ get_root_dir() -> str
         A string representing the root directory of the package.
 """
 import logging
-import json
 import os
 
-from utils_string import get_timestamp
 
 # Set up logger
 logger = logging.getLogger('connections')

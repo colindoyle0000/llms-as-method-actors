@@ -10,7 +10,7 @@ import pickle
 import logging
 import time
 
-from utils_string import get_timestamp
+from src.utils_string import get_timestamp
 
 
 # Set up logger

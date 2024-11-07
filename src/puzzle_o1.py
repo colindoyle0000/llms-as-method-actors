@@ -2,28 +2,15 @@
 """
 import logging
 import os
-import re
-import copy
-import time
 import emoji
-import random
-from utils_llm import (
+from src.utils_llm import (
     LLMSettings,
-    llm_call
 )
 
-from baseclass import BaseClass
-from utils_string import (
-    get_date,
-    get_timestamp
-)
-from utils_file import (
-    get_root_dir
-)
-
-from solve_one_shot_o1 import SolveOneShoto1
-from solve_vanilla_o1 import SolveVanillao1
-from solve_actor_o1 import SolveActoro1
+from src.baseclass import BaseClass
+from src.solve_one_shot_o1 import SolveOneShoto1
+from src.solve_vanilla_o1 import SolveVanillao1
+from src.solve_actor_o1 import SolveActoro1
 
 # Set up logger
 logger = logging.getLogger('connections')

@@ -1,31 +1,22 @@
 """ExperimentActor2 class oversees the whole experiment process for Actor-2."""
 import logging
 import os
-import re
-import copy
-import time
-import random
 import json
-import numpy as np
 import pandas as pd
-import openpyxl
-import matplotlib.pyplot as plt
-import emoji
 
-from utils_llm import (
-    LLMSettings,
-    llm_call
+from src.utils_llm import (
+    LLMSettings
 )
 
-from baseclass import BaseClass
-from utils_string import (
+from src.baseclass import BaseClass
+from src.utils_string import (
     get_date,
     get_timestamp
 )
-from utils_file import (
+from src.utils_file import (
     get_root_dir
 )
-from get_puzzle_info import extract_puzzle_data_from_url
+from src.get_puzzle_info import extract_puzzle_data_from_url
 
 from src.puzzle_actor_2 import PuzzleActor2
 

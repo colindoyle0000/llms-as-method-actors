@@ -4,26 +4,25 @@
 import logging
 import os
 import re
-import copy
 import time
 import emoji
 import random
-from utils_llm import (
-    LLMSettings,
+
+from src.utils_llm import (
     llm_call
 )
 
-from baseclass import BaseClass
-from solve import BaseSolver
-from utils_string import (
+from src.baseclass import BaseClass
+from src.solve import BaseSolver
+from src.utils_string import (
     get_date,
     get_timestamp
 )
-from utils_file import (
+from src.utils_file import (
     get_root_dir
 )
 
-from guess_actor import GuessActor
+from src.guess_actor import GuessActor
 
 # Set up logger
 logger = logging.getLogger('connections')
