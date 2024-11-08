@@ -27,12 +27,13 @@ class SolveCot(BaseSolver):
     """
     
     def __init__(self,
-                 puzzle
+                 puzzle,
+                cot_scripted=False
                  ):
         super().__init__()
         self.puzzle = puzzle
         self.words_remain_lst = puzzle.words_lst
-        self.cot_scripted = False
+        self.cot_scripted = cot_scripted
     
     def set_path_cot(self):
         """Set the path for saving data to file."""

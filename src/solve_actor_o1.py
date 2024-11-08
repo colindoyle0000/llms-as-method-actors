@@ -844,7 +844,7 @@ class SolveActoro1(BaseSolver):
     def save_summary_detailed_thorough(self):
         """Save a summary of the results as a markdown file."""
         timestamp = get_timestamp()
-        filename = f"summary_detailed_thorough_puzzle{self.puzzle.number}_{self.puzzle.llm_settings.model}_{timestamp}.md"
+        filename = f"summary_detailed_thorough_puzzle{self.puzzle.number}_o1-preview_{timestamp}.md"
         filepath = os.path.join(self.path_md, filename)
         with open(
             filepath,
@@ -852,7 +852,7 @@ class SolveActoro1(BaseSolver):
         ) as f:
             f.write(f"# Summary of Puzzle {self.puzzle.number}\n\n")
             f.write(f"Date: {get_date()}\n")
-            f.write(f"Model: {self.puzzle.llm_settings.model}\n")
+            f.write(f"Model: o1-preview\n")
             minutes, seconds = divmod(self.solve_time, 60)
 
             if self.puzzle.emoji_dict is not None:

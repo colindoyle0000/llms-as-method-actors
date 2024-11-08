@@ -2,19 +2,18 @@
 import os
 import logging
 import random
-from baseclass import BaseClass
+
+from src.baseclass import BaseClass
 from src.utils_file import (
     get_root_dir
 )
 from src.utils_llm import (
     llm_call
 )
-
 from src.utils_tokens import (
     list_to_token_list,
     num_tokens
 )
-
 from src.utils_string import get_timestamp
 
 # Set up logger
@@ -125,7 +124,7 @@ class DiscernActor2(BaseClass):
         """Discern valuable answers from answers extracted from brainstorming notes."""
         # Load the system prompt from a .txt file
         with open(os.path.join(
-                get_root_dir(), 'data', 'prompts',  'actor-2', 'discern.txt'),
+                get_root_dir(), 'data', 'prompts',  'actor_2', 'discern.txt'),
                 'r', encoding='utf-8') as f:
             prompt_system = f.read()
         # Within the system prompt, replace the placeholder {notes} with the extract notes

@@ -1,52 +1,41 @@
-### 1. **Project Title**
+# Official Repo of LLMs as Method Actors
 
-- Clearly state the name of your project at the top of the README.
+Official implementation for paper [LLMs as Method Actors: A Model for Prompt Engineering and Architecture](https://arxiv.org/submit/5985865/view) with code, prompts, and sample outputs.
 
-### 2. **Description**
+## Setup
 
-- A brief description of your project: what it does, its purpose, and its utility.
-- Highlight any unique features or motivations behind the project.
+1. Setup your API key
 
-### 3. **Installation Instructions**
+Store your OpenAI API key in environment variable ``OPENAI_API_KEY``. (To learn more about setting up an OpenAI API key, follow [this link](https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety)). If you would like to use Anthropic or Gemini models, store those keys in environmental variables ``ANTHROPIC_API_KEY`` and ``GEMINI_API_KEY``.
 
-- Detailed steps to install your project.
-- Include prerequisites, dependencies, and any necessary system configurations.
-- You might want to include command-line snippets for cloning the repo, installing dependencies, etc.
+2. Install the necessary packages
 
-For .txt files that the project depends upon: Regardless of where and how you store these files, make sure to document their usage clearly. If your package expects these files in a specific location, or if the user needs to take action (like downloading files), this should be clearly stated in your package's README or documentation.
+```bash
+pip install -r requirements.txt
+```
 
-### 4. **Usage**
+This will install all dependencies listed in `requirements.txt`.
 
-- Instructions on how to use your project after installation.
-- Include code examples, command-line examples, or screenshots if relevant.
+## Tutorials
 
-### 5. **Documentation Link**
+The Jupyter notebook tutorial.ipynb can walk you through how to run each of the approaches from the paper on any Connections puzzle.
 
-- If you have external documentation (like a GitHub page or a ReadTheDocs site), link to it here.
+## Sample Outputs
 
-### 6. **Examples and Tutorials**
+Sample outputs for each of the approaches are available in the “outputs” folder.
 
-- Provide examples or tutorials, especially if the project is complex.
-- For software libraries, small code snippets demonstrating basic functionality are helpful.
+## Citations
 
-### 7. **Contributing to the Project**
+Please cite the paper and star this repo if you find it interesting or useful. Feel free to contact colin.doyle@lls.edu if you have any questions.
 
-- Guidelines on how others can contribute.
-- Include instructions for submitting pull requests, guidelines for coding standards, and the process for submitting bugs or feature requests.
+```bibtex
+@misc{doyle2024method,
+      title={LLMs as Method Actors: A Model for Prompt Engineering and Architecture}, 
+      author={Colin Doyle},
+      year={2024},
+      eprint={????},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
 
-### 8. **License**
-
-- State the license under which your project is released.
-- Provide a link to the full license text. Often, this is a separate LICENSE file in the repository.
-
-### 9. **Authors and Acknowledgments**
-
-- Credit to the authors, contributors, and any other acknowledgments (like third-party libraries or tools used).
-
-### 10. **Frequently Asked Questions (FAQs)**
-
-- Optional: Include a section for FAQs if your project is complex or if there are common queries.
-
-### 11. **Contact Information**
-
-- How to reach you or the project maintainers for further questions or discussions.

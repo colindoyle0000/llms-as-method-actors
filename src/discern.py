@@ -15,7 +15,7 @@ from src.utils_tokens import (
     num_tokens
 )
 
-from utils_string import get_timestamp
+from src.utils_string import get_timestamp
 
 # Set up logger
 logger = logging.getLogger('connections')

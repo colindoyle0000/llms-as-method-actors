@@ -149,6 +149,7 @@ class SolveVanillao1(BaseSolver):
         logger.info("Puzzle finished in %s minutes and %s seconds.",
                     minutes, seconds)
         self.save_results_dict()
+        self.puzzle.llm_settings.model = "o1-preview"
         if self.puzzle.solution_lst is not None:
             self.save_summary()
         else:

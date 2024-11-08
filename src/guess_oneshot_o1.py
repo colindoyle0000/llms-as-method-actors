@@ -43,7 +43,7 @@ class GuessOneShoto1(BaseGuess):
         self.make_guess_outputs = []
         # Load the system prompt from a .txt file
         with open(os.path.join(
-                get_root_dir(), 'data', 'prompts', 'one_shot_o1' , 'make_guess.txt'),
+                get_root_dir(), 'data', 'prompts', 'oneshot_o1' , 'make_guess.txt'),
                 'r', encoding='utf-8') as f:
             prompt_system = f.read()
         # Because o1 does not allow you to use a system prompt, turn system prompt into user prompt

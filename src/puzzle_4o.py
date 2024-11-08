@@ -196,8 +196,7 @@ class Puzzle(BaseClass):
     def solve_cot(self):
         """Solve the puzzle using cot approach."""
         logger.info("Solving puzzle using Cot approach")
-        self.cot = SolveCot(self)
-        self.cot.scripted = False
+        self.cot = SolveCot(self, cot_scripted=False)
         self.cot.set_path_cot()
         self.cot.solve_puzzle_cot()
         self.results_dict['cot'] = self.cot.results_dict
@@ -207,8 +206,7 @@ class Puzzle(BaseClass):
     def solve_cot_scripted(self):
         """Solve the puzzle using cot scripted approach."""
         logger.info("Solving puzzle using Cot Scripted approach")
-        self.cot_scripted = SolveCot(self)
-        self.cot_scripted.scripted = True
+        self.cot_scripted = SolveCot(self, cot_scripted=True)
         self.cot_scripted.set_path_cot()
         self.cot_scripted.solve_puzzle_cot()
         self.results_dict['cot_scripted'] = self.cot_scripted.results_dict

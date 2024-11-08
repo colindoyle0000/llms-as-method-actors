@@ -88,14 +88,14 @@ class SolveOneShoto1(BaseSolver):
 
     def save_summary_oneshoto1(self):
         timestamp = get_timestamp()
-        filename = f"summary_puzzle{self.puzzle.number}_{self.puzzle.llm_settings.model}_{timestamp}.md"
+        filename = f"summary_puzzle{self.puzzle.number}_o1-preview_{timestamp}.md"
         with open(
             os.path.join(self.path_md, filename),
             'w', encoding='utf-8'
         ) as f:
             f.write(f"# Summary of Puzzle {self.puzzle.number}\n\n")
             f.write(f"Date: {get_date()}\n")
-            f.write(f"Model: {self.puzzle.llm_settings.model}\n")
+            f.write(f"Model: o1-preview\n")
             minutes, seconds = divmod(self.solve_time, 60)
             f.write(
                 f"Took {int(minutes)} minutes and {int(seconds)} seconds \n\n")
