@@ -57,8 +57,6 @@ class SolveVanillao1(BaseSolver):
             self.end_game = False
             self.success = False
         while self.end_game is False:
-            self.save_attributes(filepath_pkl=self.path_pkl,
-                                 name=f"puzzle_{self.puzzle.number}")
             
             # If the guesses ready to submit list has any guesses in it, submit the guess.
             if len(self.guesses_ready_to_submit) > 0:

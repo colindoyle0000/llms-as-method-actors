@@ -163,8 +163,8 @@ class ExperimentActor2(BaseClass):
             logger.info("Solving puzzle %s", number)
             puzzle.solve_all()
             timestamp = get_timestamp()
-            self.save_attributes(filepath_pkl=self.path_pkl,
-                        name=f"experiment_{timestamp}")
+        self.save_attributes(filepath_pkl=self.path_pkl,
+                    name=f"experiment_{timestamp}")
             
     def solve_unfinished_puzzles(self):
         """Solve all unfinished puzzles in the experiment."""
@@ -173,10 +173,9 @@ class ExperimentActor2(BaseClass):
             if self.puzzles[number].actor_2 is None or self.puzzles[number].actor_2.end_game is False:
                 puzzle.solve_unfinished()
                 timestamp = get_timestamp()
-                self.save_attributes(filepath_pkl=self.path_pkl,
-                            name=f"experiment_{timestamp}")
             else:
                 logger.info("Puzzle %s already solved.", number)
+        self.save_attributes(filepath_pkl=self.path_pkl, name=f"experiment_{timestamp}")
 
     def save_results_dict(self):
         """Save the results of the experiment to a dictionary."""

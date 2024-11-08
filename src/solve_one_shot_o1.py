@@ -59,8 +59,6 @@ class SolveOneShoto1(BaseSolver):
             self.end_game = False
             self.success = False
         while self.end_game is False:
-            self.save_attributes(filepath_pkl=self.path_pkl,
-                                 name=f"puzzle_{self.puzzle.number}")
             
             # Create a new guess
             self.current_guess = GuessOneShoto1(self)

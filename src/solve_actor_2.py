@@ -81,8 +81,6 @@ class SolveActor2(BaseSolver):
             self.end_game = False
             self.success = False
         while self.end_game is False:
-            self.save_attributes(filepath_pkl=self.path_pkl,
-                                 name=f"puzzle_{self.puzzle.number}")
 
             
             # If the puzzle is not solved, create a new guess
