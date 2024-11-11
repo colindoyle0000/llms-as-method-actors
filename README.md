@@ -22,7 +22,22 @@ The Jupyter notebook tutorial.ipynb can walk you through how to run each of the 
 
 ## Sample Outputs
 
-Sample outputs for each of the approaches are available in the “sample_outputs” folder.
+Sample outputs for each of the approaches are available in the “sample_outputs” folder as markdown files. For the more complicated approaches, markdown files are included that track the intermediary progress for each guess that was considered. Markdown files named “summary” and “summary_detailed” summarize the overall outcome and the results of the intermediary steps.
+
+The sample outputs were created by running the python scripts on the Connections puzzle from the day that the paper was announced on arXiv.org, November 11, 2024.
+
+The results were as follows:
+
+| Approach                    | Success? | # Correct Guesses | # Incorrect Guesses |
+| --------------------------- | -------- | ----------------- | ------------------- |
+| Vanilla                     | No       | 0                 | 4                   |
+| Chain-of-Thought            | No       | 1                 | 4                   |
+| Chain-of-Thought (Scripted) | Yes      | 4                 | 3                   |
+| Actor                       | Yes      | 4                 | 0                   |
+| Actor-2                     | Yes      | 4                 | 1                   |
+| Oneshot-o1                  | No       | 2                 | 2                   |
+| Vanilla-o1                  | Yes      | 4                 | 0                   |
+| Actor-o1                    | Yes      | 4                 | 0                   |
 
 ## Citations
 
