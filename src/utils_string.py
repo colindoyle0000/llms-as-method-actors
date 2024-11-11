@@ -18,7 +18,7 @@ import logging
 from datetime import datetime
 
 # Set up logger
-logger = logging.getLogger('connections')
+logger = logging.getLogger('method-actors')
 
 
 def get_timestamp():

@@ -30,7 +30,7 @@ from src.get_puzzle_info import extract_puzzle_data_from_url
 from src.puzzle_4o import Puzzle
 
 # Set up logger
-logger = logging.getLogger('connections')
+logger = logging.getLogger('method-actors')
 
 class Experiment4o(BaseClass):
     """Experiment4o class oversees the whole experiment process."""

@@ -20,7 +20,7 @@ from src.utils_file import (
 from src.guess_cot import GuessCot
 
 # Set up logger
-logger = logging.getLogger('connections')
+logger = logging.getLogger('method-actors')
 
 class SolveCot(BaseSolver):
     """SolveCot class is a class the  solves the Connections puzzle using a Chain-of-Thoughts approach.

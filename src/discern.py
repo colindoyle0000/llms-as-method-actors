@@ -22,7 +22,7 @@ logger = logging.getLogger('connections')
 
 
 class Discern(BaseClass):
-    """Discern class for discerning valuable answers from brainstorming note for Actor approach."""
+    """Class for discerning valuable answers from brainstorming note for Actor approach."""
 
     def __init__(
         self,

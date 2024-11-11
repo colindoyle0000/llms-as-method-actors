@@ -24,7 +24,7 @@ from src.utils_file import (
 from src.guess_actor_2 import GuessActor2
 
 # Set up logger
-logger = logging.getLogger('connections')
+logger = logging.getLogger('method-actors')
 
 class SolveActor2(BaseSolver):
     """SolveActor2 class is a class that solves the Connections puzzle using Actor-2 approach.

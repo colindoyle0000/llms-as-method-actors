@@ -13,7 +13,7 @@ from src.solve_cot import SolveCot
 from src.solve_actor import SolveActor
 
 # Set up logger
-logger = logging.getLogger('connections')
+logger = logging.getLogger('method-actors')
 
 
 class Puzzle(BaseClass):

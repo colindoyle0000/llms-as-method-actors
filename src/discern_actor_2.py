@@ -1,4 +1,6 @@
-"""DiscernActor2 class for discerning valuable answers from brainstorming notes for Actor-2 approach."""
+"""
+DiscernActor2 class for discerning the best solutions to the puzzle using Actor-2 approach.
+"""
 import os
 import logging
 import random
@@ -21,8 +23,11 @@ logger = logging.getLogger('connections')
 
 
 class DiscernActor2(BaseClass):
-    """DiscernActor2 class for discerning valuable answers from brainstorming notes for Actor-2 approach."""
+    """Class to discern the best guess using the Actor-2 approach.
 
+    This class provides functions to extract viable answers, discern optimal guesses, decide
+    if a guess is ready for submission, validate guesses, and select the final guess for submission.
+    """
     def __init__(
         self,
         guess,

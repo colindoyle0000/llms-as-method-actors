@@ -5,13 +5,8 @@ import logging
 import random
 
 from src.baseclass import BaseClass
-from src.utils_file import (
-    get_root_dir
-)
-from src.utils_llm import (
-    llm_call
-)
-
+from src.utils_file import get_root_dir
+from src.utils_llm import llm_call
 from src.utils_string import get_timestamp
 
 # Set up logger
@@ -19,12 +14,20 @@ logger = logging.getLogger('connections')
 
 
 class BrainstormActor2(BaseClass):
-    """BrainstormActor2 class for brainstorming possible solutions to the puzzle under Actor-2 approach.."""
+    """Class to manage brainstorming for puzzle solutions using the Actor-2 approach.
+    
+    This class allows for loading brainstorming templates, setting up prompts for the language
+    model (LLM), and generating brainstorming responses based on given puzzle context.
+    """
 
-    def __init__(
-        self,
-        guess
-    ):
+    def __init__(self, guess):
+        """
+        Initialize the BrainstormActor2 instance with a guess and related puzzle data.
+
+        Args:
+            guess: An instance representing the current puzzle guess, including details 
+                   about the puzzle context and solutions.
+        """
         self.guess = guess
         self.puzzle = guess.puzzle
         self.solve = guess.solve
@@ -38,15 +41,27 @@ class BrainstormActor2(BaseClass):
         self.llm_settings = self.puzzle.llm_settings
 
     def set_llm_temperature(self, temperature=0.0):
-        """Set the LLM temperature setting for brainstorming.
-        Note that this is not currently used in the code. It is here for any future experiments in changing the temperature for brainstorming process.
+        """
+        Set the LLM temperature setting for brainstorming, allowing future adjustments 
+        to the randomness/creativity of responses.
+        
+        Args:
+            temperature (float): Temperature for the LLM, controlling response randomness.
         """
         self.llm_settings.temperature = temperature
         logger.info("Setting LLM temperature to %s for brainstorming.",
                     self.llm_settings.temperature)
 
     def load_templates(self, num_templates=5):
-        """Load brainstorming templates."""
+        """
+        Load and select a specified number of brainstorming templates from the template folder.
+
+        Args:
+            num_templates (int): Number of templates to load for brainstorming. Defaults to 5.
+        
+        Raises:
+            FileNotFoundError: If template files are not found in the specified folder.
+        """
         self.templates = []
         templates_temp = []
         folder = os.path.join(get_root_dir(), 'data', 'templates')
@@ -77,7 +92,16 @@ class BrainstormActor2(BaseClass):
             "Selected the first %s templates.", num_templates)
 
     def brainstorm(self, template=None):
-        """Ask LLM to brainstorm a possible solution to the puzzle."""
+        """
+        Generate a brainstorming response by asking the LLM for a possible solution.
+
+        Args:
+            template (str): Optional. The template to use for this brainstorming session.
+                            If not provided, a random template will be selected.
+
+        Returns:
+            dict: The response from the LLM call, including generated output and metadata.
+        """
         # If no template is provided, choose a random template
         if template is None:
             template = random.choice(self.templates)
@@ -109,7 +133,12 @@ class BrainstormActor2(BaseClass):
         return llm_response
 
     def brainstorm_all(self):
-        """Brainstorm a bunch of possible solutions to the puzzle."""
+        """
+        Generate a series of brainstorming responses by iterating through loaded templates.
+
+        Returns:
+            list: List of all LLM responses generated across multiple brainstorming attempts.
+        """
         self.brainstorm_responses = []
         self.brainstorm_outputs = []
         count = 1

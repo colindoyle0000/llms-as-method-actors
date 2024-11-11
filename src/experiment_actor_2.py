@@ -21,7 +21,7 @@ from src.get_puzzle_info import extract_puzzle_data_from_url
 from src.puzzle_actor_2 import PuzzleActor2
 
 # Set up logger
-logger = logging.getLogger('connections')
+logger = logging.getLogger('method-actors')
 
 class ExperimentActor2(BaseClass):
     """Experiment class oversees the whole experiment process."""

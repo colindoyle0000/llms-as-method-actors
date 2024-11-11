@@ -21,10 +21,10 @@ from src.get_puzzle_info import extract_puzzle_data_from_url
 from src.puzzle_o1 import Puzzleo1
 
 # Set up logger
-logger = logging.getLogger('connections')
+logger = logging.getLogger('method-actors')
 
 class Experimento1(BaseClass):
-    """Experimento1 class oversees the process for Experiment #2 with GPT-o1 for Oneshot-o1, Vanilla-o1, and Actor-o1 approaches."""
+    """Experimento1 class oversees the process for Experiment #2 with o1-preview for Oneshot-o1, Vanilla-o1, and Actor-o1 approaches."""
 
     def __init__(self,
                  puzzle_numbers: list,

@@ -20,7 +20,7 @@ from src.utils_file import (
 from src.guess_vanilla import GuessVanilla
 
 # Set up logger
-logger = logging.getLogger('connections')
+logger = logging.getLogger('method-actors')
 
 class SolveVanilla(BaseSolver):
     """SolveVanilla class is a class the  solves the Connections puzzle using a Vanilla/Naked/Simple approach.

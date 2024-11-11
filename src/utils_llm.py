@@ -19,7 +19,7 @@ from src.utils_string import get_timestamp
 
 
 # Set up logger
-logger = logging.getLogger('connections')
+logger = logging.getLogger('method-actors')
 
 
 @dataclass

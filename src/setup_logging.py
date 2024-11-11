@@ -1,14 +1,14 @@
-""" This module sets up the logging for the "connections" package.
+""" This module sets up the logging for "LLMs as Method Actors" package.
 """
 import logging
 import os
 
 
 def setup_logger():
-    """ Set up the logging for the "connections" package.
+    """ Set up the logging for the "LLMs as Method Actors" package.
     """
     # Set up logger
-    logger = logging.getLogger('connections')
+    logger = logging.getLogger('method-actors')
     if not logger.handlers:
         logger.setLevel(logging.DEBUG)
 
@@ -18,7 +18,7 @@ def setup_logger():
 
         # Create a file handler
         file_handler = logging.FileHandler(
-            os.path.join('log', 'connections.log'))
+            os.path.join('log', 'method-actors.log'))
         file_handler.setLevel(logging.DEBUG)
 
         # Create a console handler

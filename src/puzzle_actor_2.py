@@ -11,7 +11,7 @@ from src.baseclass import BaseClass
 from src.solve_actor_2 import SolveActor2
 
 # Set up logger
-logger = logging.getLogger('connections')
+logger = logging.getLogger('method-actors')
 
 
 class PuzzleActor2(BaseClass):

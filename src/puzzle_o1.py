@@ -13,7 +13,7 @@ from src.solve_vanilla_o1 import SolveVanillao1
 from src.solve_actor_o1 import SolveActoro1
 
 # Set up logger
-logger = logging.getLogger('connections')
+logger = logging.getLogger('method-actors')
 
 
 class Puzzleo1(BaseClass):

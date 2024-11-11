@@ -9,7 +9,7 @@ from src.brainstorm_actor_2 import BrainstormActor2
 from src.discern_actor_2 import DiscernActor2
 
 # Set up logger
-logger = logging.getLogger('connections')
+logger = logging.getLogger('method-actors')
 
 
 class GuessActor2(BaseGuess):

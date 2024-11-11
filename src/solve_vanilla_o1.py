@@ -20,7 +20,7 @@ from src.utils_file import (
 from src.guess_vanilla_o1 import GuessVanillao1
 
 # Set up logger
-logger = logging.getLogger('connections')
+logger = logging.getLogger('method-actors')
 
 class SolveVanillao1(BaseSolver):
     """SolveVanilla class is a class the  solves the Connections puzzle using a Vanilla/Naked/Simple approach with GPT-o1.

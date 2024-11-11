@@ -17,7 +17,7 @@ from src.utils_file import (
 )
 
 # Set up logger
-logger = logging.getLogger('connections')
+logger = logging.getLogger('method-actors')
 
 class BaseSolver(BaseClass):
     """Base class for solve classes in the project.

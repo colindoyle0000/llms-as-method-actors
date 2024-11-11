@@ -1,6 +1,6 @@
 # Official Repo of LLMs as Method Actors
 
-Official implementation for paper [LLMs as Method Actors: A Model for Prompt Engineering and Architecture](https://arxiv.org/submit/5985865/view) with code, prompts, and sample outputs.
+Official implementation for paper [LLMs as Method Actors: A Model for Prompt Engineering and Architecture](https://arxiv.org/abs/2411.05778) with code, prompts, and sample outputs.
 
 ## Setup
 
@@ -33,7 +33,7 @@ Please cite the paper and star this repo if you find it interesting or useful. F
       title={LLMs as Method Actors: A Model for Prompt Engineering and Architecture}, 
       author={Colin Doyle},
       year={2024},
-      eprint={????},
+      eprint={2411.05778},
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }

@@ -13,7 +13,7 @@ from src.utils_llm import (
 )
 
 # Set up logger
-logger = logging.getLogger('connections')
+logger = logging.getLogger('method-actors')
 
 class GuessVanilla(BaseGuess):
     """Guess class for Vanilla approach for storing information about a guess that is processed."""

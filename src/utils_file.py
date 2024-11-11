@@ -12,7 +12,7 @@ import os
 
 
 # Set up logger
-logger = logging.getLogger('connections')
+logger = logging.getLogger('method-actors')
 
 
 class RootDirectoryNotFoundError(Exception):

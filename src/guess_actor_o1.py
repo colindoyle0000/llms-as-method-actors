@@ -9,7 +9,7 @@ from src.discern_actor_o1 import Discerno1
 
 
 # Set up logger
-logger = logging.getLogger('connections')
+logger = logging.getLogger('method-actors')
 
 
 class GuessActoro1(BaseGuess):

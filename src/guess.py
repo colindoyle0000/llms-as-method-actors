@@ -14,7 +14,7 @@ from src.utils_llm import (
 from src.submit import Submit
 
 # Set up logger
-logger = logging.getLogger('connections')
+logger = logging.getLogger('method-actors')
 
 
 class BaseGuess(BaseClass):

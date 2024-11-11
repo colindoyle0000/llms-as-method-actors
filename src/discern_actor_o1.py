@@ -23,7 +23,7 @@ logger = logging.getLogger('connections')
 
 
 class Discerno1(BaseClass):
-    """Discerno1 class for discerning valuable answers from brainstorming notes."""
+    """Class for discerning valuable answers from brainstorming notes."""
 
     def __init__(
         self,
@@ -35,6 +35,7 @@ class Discerno1(BaseClass):
         self.solve = guess.solve
         # LLM settings for discerning
         self.llm_settings = self.puzzle.llm_settings
+        self.llm_settings.model = "gpt-4o"
         # Brainstorm responses
         self.brainstorm_responses = brainstorm_responses
         # Select guess

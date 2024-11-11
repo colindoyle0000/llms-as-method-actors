@@ -10,7 +10,7 @@ from langchain.text_splitter import (
 )
 
 # Set up logger
-logger = logging.getLogger('connections')
+logger = logging.getLogger('method-actors')
 
 
 def num_tokens(str, encoding_name="cl100k_base") -> int:

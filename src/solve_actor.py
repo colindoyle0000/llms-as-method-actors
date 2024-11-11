@@ -25,7 +25,7 @@ from src.utils_file import (
 from src.guess_actor import GuessActor
 
 # Set up logger
-logger = logging.getLogger('connections')
+logger = logging.getLogger('method-actors')
 
 class SolveActor(BaseSolver):
     """SolveActor class is a class that solves the Connections puzzle using model of LLMs as method actors for designing prompts.

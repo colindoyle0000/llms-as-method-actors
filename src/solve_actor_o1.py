@@ -25,7 +25,7 @@ from src.utils_file import (
 from src.guess_actor_o1 import GuessActoro1
 
 # Set up logger
-logger = logging.getLogger('connections')
+logger = logging.getLogger('method-actors')
 
 class SolveActoro1(BaseSolver):
     """SolveActoro1 class is a class that solves the Connections puzzle Actor-o1 approach.

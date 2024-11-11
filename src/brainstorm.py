@@ -1,17 +1,14 @@
-"""Brainstorm class for Actor approach for brainstorming possible solutions to the puzzle."""
+"""
+Brainstorm class for generating possible solutions to the puzzle using the Actor approach.
+"""
 
 import os
 import logging
 import random
 
 from src.baseclass import BaseClass
-from src.utils_file import (
-    get_root_dir
-)
-from src.utils_llm import (
-    llm_call
-)
-
+from src.utils_file import get_root_dir
+from src.utils_llm import llm_call
 from src.utils_string import get_timestamp
 
 # Set up logger
@@ -19,103 +16,125 @@ logger = logging.getLogger('connections')
 
 
 class Brainstorm(BaseClass):
-    """Brainstorm class for Actor approach for brainstorming possible solutions to the puzzle."""
+    """Class for brainstorming puzzle solutions using the Actor approach.
 
-    def __init__(
-        self,
-        guess
-    ):
+    This class includes methods to load templates, generate prompts, and interact with an LLM
+    to brainstorm possible solutions to a given puzzle.
+    """
+
+    def __init__(self, guess):
+        """
+        Initialize the Brainstorm instance with a guess and related puzzle data.
+
+        Args:
+            guess: An instance representing the current guess for the puzzle, containing information 
+                   about the puzzle, solutions, and tracking incorrect guesses.
+        """
         self.guess = guess
         self.puzzle = guess.puzzle
         self.solve = guess.solve
-
-        # Templates for the different kinds of solutions
-        self.templates = []
-        # Brainstorming responses and outputs
-        self.brainstorm_responses = []
-        self.brainstorm_outputs = []
-        # LLM settings for brainstorming
-        self.llm_settings = self.puzzle.llm_settings
+        self.templates = []  # Stores templates for brainstorming solutions
+        self.brainstorm_responses = []  # Stores LLM responses from brainstorming sessions
+        self.brainstorm_outputs = []  # Stores generated outputs from LLM responses
+        self.llm_settings = self.puzzle.llm_settings  # LLM settings associated with the puzzle
 
     def set_llm_temperature(self, temperature=0.0):
-        """Set the LLM temperature setting for brainstorming.
-        Note that this is not currently used in the code. It is here for any future experiments in changing the temperature for brainstorming process.
+        """
+        Set the LLM temperature to control response creativity.
+
+        Args:
+            temperature (float): LLM temperature setting, influencing response randomness.
         """
         self.llm_settings.temperature = temperature
-        logger.info("Setting LLM temperature to %s for brainstorming.",
-                    self.llm_settings.temperature)
+        logger.info("Setting LLM temperature to %s for brainstorming.", self.llm_settings.temperature)
 
     def load_templates(self, num_templates=5):
-        """Load brainstorming templates."""
+        """
+        Load a specified number of brainstorming templates from files.
+
+        Args:
+            num_templates (int): Number of templates to load for brainstorming. Defaults to 5.
+        
+        Raises:
+            FileNotFoundError: If template files are not found in the specified folder.
+        """
         self.templates = []
         templates_temp = []
         folder = os.path.join(get_root_dir(), 'data', 'templates')
 
-        # List all files in the folder
+        # Retrieve all template files in the directory
         files = [file for file in os.listdir(folder) if file.endswith('.txt')]
+        files.sort(key=lambda x: int(x.split('_')[0]))  # Sort based on numeric prefixes
 
-        # Sort files based on the numeric value at the start of each filename
-        files.sort(key=lambda x: int(x.split('_')[0]))
-
-        # Read and append the contents of each file to self.templates
+        # Load and store contents of each template file
         for file in files:
             with open(os.path.join(folder, file), 'r', encoding='utf-8') as f:
                 templates_temp.append(f.read())
         
-        # Ensure self.solve.templates_index is initialized
+        # Ensure `solve.templates_index` is initialized
         if not hasattr(self.solve, 'templates_index'):
             self.solve.templates_index = 0
         
-        # Append templates to self.templates until it has num_templates elements
+        # Fill `self.templates` up to `num_templates` elements
         while len(self.templates) < num_templates:
             if self.solve.templates_index >= len(templates_temp):
                 self.solve.templates_index = 0
             self.templates.append(templates_temp[self.solve.templates_index])
             self.solve.templates_index += 1
         
-        logger.info(
-            "Selected the first %s templates.", num_templates)
+        logger.info("Selected the first %s templates.", num_templates)
 
     def brainstorm(self, template=None):
-        """Ask LLM to brainstorm a possible solution to the puzzle."""
-        # If no template is provided, choose a random template
+        """
+        Generate a brainstorming response using a specified or random template.
+
+        Args:
+            template (str): Optional. Template for generating a response. If None, selects a random template.
+
+        Returns:
+            dict: LLM response containing generated content and metadata.
+        """
+        # If no template is provided, randomly select one from `self.templates`
         if template is None:
             template = random.choice(self.templates)
-        # Load the system prompt from a .txt file
-        with open(os.path.join(
-                get_root_dir(), 'data', 'prompts', 'actor', 'brainstorm.txt'),
-                'r', encoding='utf-8') as f:
+        
+        # Load system prompt for brainstorming and replace placeholders
+        with open(os.path.join(get_root_dir(), 'data', 'prompts', 'actor', 'brainstorm.txt'), 'r', encoding='utf-8') as f:
             prompt_system = f.read()
-        # Within the system prompt, replace the placeholder {template} with the actual template
         prompt_system = prompt_system.replace('{template}', template)
-        # If bad guesses have been made, add them to the system prompt
+
+        # Add previous incorrect guesses to the prompt, if any
         bad_guesses_str = self.guess.set_bad_guesses_str()
         prompt_system = prompt_system.replace('{bad_guesses}', bad_guesses_str)
-        # Create user prompt
-        # Create a list that shuffles the words that remain to be solved
+
+        # Generate user prompt with shuffled remaining words
         words_remain_shuffled = self.solve.words_remain_lst.copy()
         random.shuffle(words_remain_shuffled)
-        # Create a string of the words that remain to be solved
         words_remain_str = " ".join(words_remain_shuffled)
         prompt_user = f"Let's brainstorm a possible solution to this puzzle: {words_remain_str}"
+
         # Set up the prompts for the LLM
         prompts = [
             {"role": "system", "content": prompt_system},
             {"role": "user", "content": prompt_user},
         ]
-        # Call the LLM
-        llm_response = llm_call(
-            model=self.llm_settings.model, prompts=prompts, settings=self.llm_settings)
+
+        # Call the LLM and return its response
+        llm_response = llm_call(model=self.llm_settings.model, prompts=prompts, settings=self.llm_settings)
         return llm_response
 
     def brainstorm_all(self):
-        """Brainstorm a bunch of possible solutions to the puzzle."""
+        """
+        Generate multiple brainstorming responses by iterating through loaded templates.
+
+        Returns:
+            list: List of all LLM responses generated across multiple brainstorming attempts.
+        """
         self.brainstorm_responses = []
         self.brainstorm_outputs = []
         count = 1
         for template in self.templates:
-            logger.debug("Brainstorming attempt %s of %s.",
-                            count, len(self.templates))
+            logger.debug("Brainstorming attempt %s of %s.", count, len(self.templates))
             response = self.brainstorm(template=template)
             self.brainstorm_responses.append(response)
             self.brainstorm_outputs.append(response.output)

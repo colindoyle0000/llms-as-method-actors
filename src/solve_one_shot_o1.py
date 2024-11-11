@@ -22,7 +22,7 @@ from src.guess_oneshot_o1 import GuessOneShoto1
 
 
 # Set up logger
-logger = logging.getLogger('connections')
+logger = logging.getLogger('method-actors')
 
 class SolveOneShoto1(BaseSolver):
     """SolveOneShoto1 class is a class the  solves the Connections puzzle using a one-shot approach with GPT-o1.
