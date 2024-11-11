@@ -22,7 +22,7 @@ The Jupyter notebook tutorial.ipynb can walk you through how to run each of the 
 
 ## Sample Outputs
 
-Sample outputs for each of the approaches are available in the “outputs” folder.
+Sample outputs for each of the approaches are available in the “sample_outputs” folder.
 
 ## Citations
 
